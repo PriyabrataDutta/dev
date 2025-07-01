@@ -3,7 +3,7 @@
 // A function in JavaScript is similar to a procedure—a set of statements 
 //that performs a task or calculates a value, but for a procedure to qualify
 //as a function, it should take some input and return an output where there is some obvious relationship between the input and the output. To use a function, you must define it somewhere in the scope from which you wish to call it.
-
+//Amust read frm here //https://www.squash.io/javascript-arrow-functions/
 
 function logger (){
 console.log("Myname is Priyabrat Dutta");
@@ -97,4 +97,10 @@ functionName();
 
 // Ananomus function 
 
-const variableName = function (parameter one )
+const calcAverage = (a,b,c) => {
+    let totalAvg = (a+b+c)/3;
+    console.log(totalAvg);
+    return (a,b,c);
+}
+
+console.log(calcAverage(5,10,30));
