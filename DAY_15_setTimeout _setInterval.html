@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+//  setTimeout(function(){
+//     console.log("PD");
+//  }, 1000)
+
+const newVar = function(){
+    console.log("PRIYABRATA DUTTA");
+    
+}
+const changeText = () => {document.querySelector('h1').innerHTML = " I HAVE CHANGED THE TITLE"}
+setTimeout(changeText, 2000)
+//now if you want to close the setTimeout 
+
+document.querySelector('#stop').addEventListener('click', function(){
+    setTimeout(changeText, 2000)
+    console.log("Stopped");
+    
+})
+</script>
+</html>

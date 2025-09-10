@@ -9,7 +9,7 @@ let obj = {
     designation : "Technical lead"
 };
 
-console.log(obj);
+//console.log(obj);
 
 
 //Creation Using new Object() Constructor
@@ -20,16 +20,16 @@ obj2.name = "Manojit Ghosh";
 obj2.age = 36;
 obj.designation = "Auditer";
 
-console.log(obj2);
+//console.log(obj2);
 
 // Basic Operations on JavaScript Objects
 // 1. Accessing Object Properties
 
 // Using Dot Notation
-console.log(obj.name);
+//console.log(obj.name);
 
 // Using Bracket Notation
-console.log(obj["age"]);
+//console.log(obj["age"]);
 
 
 // let employee = {
@@ -63,5 +63,16 @@ console.log(obj["age"]);
 // // Deleting a property
 // delete employee.designation;
 
+
+const user = {
+username : "Pdutta",
+price: 599
+}
+
+function handelObject (anyobject){
+console.log(`Usename is ${anyobject.username} and Price is ${anyobject.price}`);
+}
+
+handelObject(user);
 
 
